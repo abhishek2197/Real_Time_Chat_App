@@ -1,0 +1,18 @@
+
+<div class = "homestyle">
+  <div style="text-align:center" >
+    <h1>
+      Welcome to TeamChat!
+    </h1>
+      <img width="300" alt="Chat Logo" src="/assets/images/chat-icon.jpg"/>
+  </div>
+  
+  <div style="text-align :center; margin-top : 100px">
+      <h3>Enter a room name for Private Group Chat</h3>
+      <input [(ngModel)]="room" #ctrl="ngModel" required style="height:40px; width :240p; box-sizing :border-box; border :chartreuse; color:black" placeholder=" Ensure Privacy ">
+         
+     <button (click)="submit();" class ="insub" style="height:40px; width :80px; color:green; box-sizing:border-box" >JOIN</button>
+  
+  </div>
+  </div>
+  
